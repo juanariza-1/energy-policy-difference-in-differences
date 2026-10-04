@@ -835,7 +835,7 @@ iplot(m_event,
       main = "Annual Event Study: Continuous Treatment (ref = 2021)",
       xlab = "Years Relative to 2022",
       ylab = "DiD Coefficient",
-      col = "#1565C0", ci_col = "#90CAF9")
+      col = "#1565C0", ci.col = "#90CAF9")
 abline(h = 0, lty = 2)
 abline(v = -0.5, lty = 2, col = "red")
 dev.off()
@@ -848,7 +848,7 @@ iplot(m_event_q,
       main = "Quarterly Event Study: Continuous Treatment (ref = 2021Q4)",
       xlab = "Quarters Relative to 2022Q1",
       ylab = "DiD Coefficient",
-      col = "#1565C0", ci_col = "#90CAF9")
+      col = "#1565C0", ci.col = "#90CAF9")
 abline(h = 0, lty = 2)
 abline(v = -0.5, lty = 2, col = "red")
 dev.off()
@@ -861,7 +861,7 @@ iplot(m_ev_hi,
       main = "Event Study: High-Income Households (Q4) - ref = 2021",
       xlab = "Years Relative to 2022",
       ylab = "DiD Coefficient",
-      col = "#D32F2F", ci_col = "#FFCDD2")
+      col = "#D32F2F", ci.col = "#FFCDD2")
 abline(h = 0, lty = 2)
 abline(v = -0.5, lty = 2, col = "black")
 dev.off()
@@ -874,7 +874,7 @@ iplot(m_ev_burd,
       main = "Event Study: P(Energy Burden > 10% of Income) - ref = 2021",
       xlab = "Years Relative to 2022",
       ylab = "Change in P(Energy Burden)",
-      col = "#1565C0", ci_col = "#BBDEFB")
+      col = "#1565C0", ci.col = "#BBDEFB")
 abline(h = 0, lty = 2)
 abline(v = -0.5, lty = 2, col = "black")
 dev.off()

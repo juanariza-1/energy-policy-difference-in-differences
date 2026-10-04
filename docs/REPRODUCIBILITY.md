@@ -21,6 +21,7 @@ The paper's replication appendix describes the unified script as loading raw sur
 - Moved package installation to an explicit setup script and added clear dependency checks.
 - Accepted the workbook's original `x` header as the mean column expected by the raw script.
 - Harmonized raw SAS/CSV survey identifier types as character strings so their rows can be combined, preserving leading zeros from CSV `NEWID` values.
+- Corrected four event-study plot arguments from `ci_col` to the supported `fixest::iplot` argument `ci.col`, retaining the original colors and model objects.
 - Converted the CSV's `Low`, `Medium` and `High` tercile labels to the existing plotting codes 1, 2 and 3. Previously, coercion to a number discarded every label. This compatibility change affects tercile grouping for the plot; no regression formula, sample restriction or treatment definition was changed.
 
 ## Differences requiring a separate analytical revision
@@ -42,5 +43,5 @@ All `feols` calls and constructed model formulas in the three scripts match thei
 
 Execution also confirms the version distinction: the processed-data scripts estimate a full-sample continuous-treatment coefficient of approximately **-0.011712**, whereas the saved paper reports approximately **-0.006**. The Q4 coefficient is approximately **-0.044708**, consistent with the rounded paper value. The processed scripts' continuous unannualized burden outcome is a different variable from the paper's corrected binary outcome. Published PDFs and saved figures remain the original exports.
 
-The optional raw master script's data preparation was inspected through outcome and control construction on the original 22-file snapshot. After the identifier-type and workbook-header compatibility fixes, it constructs **92,565 rows**, 41 states and 21 quarters. The full raw master model and figure run has not been verified; the 88,006-row processed snapshot remains the included input for the fully executed workflows.
+The optional raw master script completed a full run on the original 22-file snapshot, fitting **27 models**, generating **11 figures**, and saving its workspace. After the identifier-type and workbook-header compatibility fixes, it constructs **92,565 rows**, 41 states and 21 quarters. Correcting the four confidence-interval plotting argument names left every fitted coefficient, covariance matrix and sample size exactly unchanged. Its sample remains different from the included 88,006-row processed snapshot; these are separate executed historical workflows.
 
