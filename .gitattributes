@@ -4,4 +4,5 @@
 *.png binary
 *.pdf binary
 *.xlsx binary
+*.csv -text
 
