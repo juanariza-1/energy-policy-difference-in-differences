@@ -1,0 +1,28 @@
+# R sessions and local libraries
+.Rhistory
+.RData
+.RDataTmp
+*.RData
+.Ruserdata
+.Rproj.user/
+.Rprofile
+.Renviron
+renv/library/
+renv/staging/
+
+# Regenerated outputs and optional downloaded source data
+/generated/
+/data/raw/FMLI/
+/data/raw/MTBI/
+*.zip
+*.log
+
+# Local credentials and operating system files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+Thumbs.db
+.DS_Store
+
