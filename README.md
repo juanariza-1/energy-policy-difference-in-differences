@@ -1,5 +1,7 @@
 # Renewable Energy and the 2022 Energy Price Shock
 
+**[View the rendered report online](https://juanariza-1.github.io/energy-policy-difference-in-differences/)**
+
 An academic study of household energy expenditure across U.S. states with different renewable energy production intensities. The project uses Consumer Expenditure Survey microdata from **2019Q1 to 2024Q1** and difference-in-differences models with state and quarter fixed effects.
 
 **Authors:** Juan Pablo Ariza Gallo and Juan Esteban Londoño  
@@ -7,6 +9,8 @@ An academic study of household energy expenditure across U.S. states with differ
 **Report date:** April 2026
 
 ## Read the project
+
+The online view displays all 34 pages of the original paper without requiring a PDF plug-in. Both original PDFs remain available to open or download.
 
 - [Paper: original root-level PDF export](reports/PAPER_DID.pdf)
 - [Alternative final PDF export](reports/paper_energy_did_v2_final.pdf)
