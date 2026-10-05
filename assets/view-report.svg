@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="310" height="56" viewBox="0 0 310 56" role="img" aria-labelledby="title">
+<title id="title">View the full report</title>
+<rect x="1" y="1" width="308" height="54" rx="8" fill="#0f766e" stroke="#0b5f59"/>
+<g fill="none" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16h13l5 5v19H22z"/><path d="M35 16v6h5M27 27h8M27 32h8"/><path d="M270 28h17m-6-6 6 6-6 6"/></g>
+<text x="56" y="34" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">View the full report</text>
+</svg>
